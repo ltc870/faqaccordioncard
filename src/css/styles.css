@@ -6,8 +6,35 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  
+}
+
+body {
+  height: 100vh;
   padding: 0;
   margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%), no-repeat;
+}
+
+.container {
+  background-color: #FFFFFF;
+}
+
+.accordion {
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 0.8125rem;
+}
+
+.accordion:hover,
+.accordion:focus {
+  color: #F47B56;
+  cursor: pointer;
+}
+
+.panel-text {
+  font-size: .75rem;
 }
 
 .attribution {
