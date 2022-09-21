@@ -21,9 +21,25 @@ body {
   background-color: #FFFFFF;
   max-width: 327px;
   width: 100%;
-  margin: 4em auto;
-  padding: 2em 1.5em;
+  margin: 10em auto 0;
+  padding: 3em 1.5em 3em;
   border-radius: 10px;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: -40px;
+  left: 20px;
+}
+
+.hero-image {
+  position: absolute;
+  top: -155px;
+  right: 21px;
 }
 
 .accordion-title {
@@ -39,6 +55,9 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
+  transition: .4s;
+  border-bottom: solid .5px #979797;
+  padding: 2em 0;
 }
 
 .accordion:hover,
@@ -52,8 +71,8 @@ body {
 }
 
 .panel {
-  border-bottom: solid 1px #979797;
   margin: 1em 0;
+  display: none;
 }
 
 .panel-text {
@@ -63,8 +82,9 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
+    font-weight: 700;
   }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: #F47B56;
   }
