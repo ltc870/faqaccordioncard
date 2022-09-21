@@ -48,6 +48,11 @@ body {
   margin-top: 3em;
 }
 
+.accordion-panel {
+  border-bottom: solid .5px #979797;
+  padding: 1em 0;
+}
+
 .accordion {
   background-color: #FFFFFF;
   border: none;
@@ -56,14 +61,19 @@ body {
   align-items: center;
   width: 100%;
   transition: .4s;
-  border-bottom: solid .5px #979797;
-  padding: 2em 0;
+}
+
+.accordion:hover {
+  color: #F47B56;
 }
 
 .accordion:hover,
 .accordion:focus {
-  color: #F47B56;
   cursor: pointer;
+}
+
+.accordion.active {
+  font-weight: 700;
 }
 
 .panel-arrow {
@@ -73,6 +83,10 @@ body {
 .panel {
   margin: 1em 0;
   display: none;
+}
+
+.panel.active {
+  display: block;
 }
 
 .panel-text {
