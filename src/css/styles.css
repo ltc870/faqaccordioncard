@@ -143,7 +143,7 @@ body {
   .hero-illustration-box {
     width: 40%;
     position: absolute;
-    z-index: 2;
+    z-index: 5;
     top: 100px;
     right: 380px;
   }
