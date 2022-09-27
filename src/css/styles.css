@@ -30,16 +30,22 @@ body {
   position: relative;
 }
 
-.hero-shadow {
+.hero-pattern-mobile {
   position: absolute;
   top: -40px;
   left: 27px;
 }
 
-.hero-image {
+.hero-woman-mobile {
   position: absolute;
   top: -155px;
   right: 32px;
+}
+
+.hero-pattern-desktop,
+.hero-illustration-box,
+.hero-woman-desktop {
+  display: none;
 }
 
 .accordion-title {
@@ -94,6 +100,45 @@ body {
   font-size: .75rem;
   max-width: 250px;
   margin-bottom: 0;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 920px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-bottom: 4em;
+  }
+
+  .hero-container {
+    width: 100%;
+  }
+
+  .hero-pattern-mobile,
+  .hero-woman-mobile {
+    display: none;
+  }
+  
+  .accordion-section {
+    width: 100%;
+  }
+
+  .accordion-title {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .accordion {
+    text-align: left;
+  }
+
+  .accordion-panel {
+    width: 75%;
+  }
+
+  .panel-text {
+    max-width: 319px;
+  }
 }
 
 .attribution {
