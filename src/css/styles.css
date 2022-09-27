@@ -108,6 +108,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     padding-bottom: 4em;
+    overflow: hidden;
   }
 
   .hero-container {
@@ -117,6 +118,34 @@ body {
   .hero-pattern-mobile,
   .hero-woman-mobile {
     display: none;
+  }
+
+  .hero-pattern-desktop,
+  .hero-illustration-box,
+  .hero-woman-desktop {
+    display: block;
+}
+
+  .hero-pattern-desktop {
+    width: 180%;
+    position: absolute;
+    right: 100px;
+    top: -280px;
+  }
+
+  .hero-woman-desktop {
+    width: 100%;
+    position: absolute;
+    right: 100px;
+    top: -15px;
+  }
+
+  .hero-illustration-box {
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    right: 380px;
   }
   
   .accordion-section {
