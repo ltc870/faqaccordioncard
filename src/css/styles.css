@@ -127,10 +127,10 @@ body {
 }
 
   .hero-pattern-desktop {
-    width: 180%;
+    width: 100%;
     position: absolute;
     right: 100px;
-    top: -280px;
+    top: -50px;
   }
 
   .hero-woman-desktop {
