@@ -134,25 +134,25 @@ body {
 }
 
   .hero-pattern-desktop {
-    width: 160%;
+    width: 170%;
     position: absolute;
-    right: 130px;
-    top: -190px;
+    right: 70px;
+    top: -225px;
   }
 
   .hero-woman-desktop {
-    width: 90%;
+    width: 100%;
     position: absolute;
-    right: 120px;
-    top: 45px;
+    right: 75px;
+    top: 20px;
   }
 
   .hero-illustration-box {
-    width: 40%;
+    width: 50%;
     position: absolute;
     z-index: 5;
-    top: 155px;
-    right: 370px;
+    top: 130px;
+    right: 346px;
   }
   
   .accordion-section {
