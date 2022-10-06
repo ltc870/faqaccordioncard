@@ -19,7 +19,7 @@ body {
 
 .container {
   background-color: #FFFFFF;
-  max-width: 350px;
+  max-width: 327px;
   width: 100%;
   margin: 10em auto 0;
   padding: 3em 1.5em 3em;
@@ -39,7 +39,7 @@ body {
 .hero-woman-mobile {
   position: absolute;
   top: -155px;
-  right: 32px;
+  right: 15px;
 }
 
 .hero-pattern-desktop,
